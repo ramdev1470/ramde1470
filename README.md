@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- Cyber-Neon Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050b18,50:0d2137,100:00a8ff&height=230&section=header&text=RAM%20DEV&fontSize=62&fontColor=00f0ff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Machine%20Learning%20Systems%20Engineer&descFontSize=20&descColor=a5f3fc&descAlignY=62" width="100%" />
+<!-- Self-Hosted High-Resolution Cyber Banner (100% Reliable, Zero Downtime) -->
+<img src="assets/banner.jpg" alt="Ram Dev - AI & Machine Learning Engineer" width="100%" />
+
+<br/><br/>
 
 <!-- Animated Typing Subtitle -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=700&lines=Building+Intelligent+Autonomous+Agents;Engineering+High-Performance+RAG+Pipelines;Exploring+Edge+Computer+Vision+%26+Deep+Learning;Architecting+Scalable+AI+Software+Systems)](https://git.io/typing-svg)
@@ -10,6 +12,7 @@
   <img src="https://komarev.com/ghpvc/?username=ramdev1470&label=PROFILE+VIEWS&style=flat-square&color=00a8ff" alt="Profile Views" />
   <img src="https://img.shields.io/badge/Focus-GenAI_%26_Agents-00f0ff?style=flat-square&logo=openai&logoColor=black" alt="Focus" />
   <img src="https://img.shields.io/badge/Status-Building_%26_Innovating-39d353?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/github/followers/ramdev1470?label=Followers&style=flat-square&color=00a8ff" alt="Followers" />
 </p>
 
 <!-- Quick Action Social Links -->
@@ -139,16 +142,11 @@ identity:
 
 ---
 
-### 📊 GitHub Telemetry & Stats
+### 📊 GitHub Telemetry & Commit Streak
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=ramdev1470&show_icons=true&theme=tokyonight&border_color=00a8ff&title_color=00f0ff&icon_color=00a8ff&bg_color=050b18" alt="GitHub Stats" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramdev1470&layout=compact&theme=tokyonight&border_color=00a8ff&title_color=00f0ff&bg_color=050b18" alt="Top Languages" />
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ramdev1470&theme=tokyonight&border=00a8ff&background=050b18&stroke=00a8ff&ring=00f0ff&fire=00a8ff&currStreakLabel=00f0ff" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ramdev1470&theme=tokyonight&border=00a8ff&background=050b18&stroke=00a8ff&ring=00f0ff&fire=00a8ff&currStreakLabel=00f0ff" alt="GitHub Streak" width="80%" />
 
 </div>
 
