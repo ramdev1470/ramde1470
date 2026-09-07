@@ -1,0 +1,8 @@
+{
+  "name": "ramdev-github-profile",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "generate-snake-animation": "^3.0.0"
+  }
+}
