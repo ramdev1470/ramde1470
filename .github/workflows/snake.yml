@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -16,20 +13,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Snake
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ramdev1470
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish Snake
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: ./dist
-          force_orphan: true
+      - name: Commit generated snake
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add dist/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update contribution snake"
+            git push
+          fi
